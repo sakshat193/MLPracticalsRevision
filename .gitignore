@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# ML artifacts / large files
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Local datasets (keep these out of git)
+data/
+datasets/
+*/data/
+*/datasets/
+
+# Temporary outputs
+outputs/
+results/
+figures/
+
+.github/
